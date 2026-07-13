@@ -1,0 +1,53 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "woman traditional Indian saree silk festive"
+✅ Got 6 images
+{
+  "success": true,
+  "query": "woman traditional Indian saree silk festive",
+  "count": 6,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/270381d0ff13.jpg",
+      "caption": "",
+      "source": "Roop Sari Palace",
+      "original_width": "900px",
+      "original_height": "1350px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/c0a4c0671dfc.jpg",
+      "caption": "",
+      "source": "GulabiCity.com",
+      "original_width": "1024px",
+      "original_height": "1462px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/8159ae69c369.png",
+      "caption": "",
+      "source": "Luxurion World",
+      "original_width": "2048px",
+      "original_height": "2048px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/cbd8cab27be7.jpg",
+      "caption": "",
+      "source": "Naidu Hall",
+      "original_width": "1000px",
+      "original_height": "1500px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/6117c81034a2.jpg",
+      "caption": "",
+      "source": "Ragthm",
+      "original_width": "1000px",
+      "original_height": "1375px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/0eedad0a433f.jpg",
+      "caption": "",
+      "source": "Pinterest",
+      "original_width": "736px",
+      "original_height": "1108px"
+    }
+  ]
+}

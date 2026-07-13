@@ -1,0 +1,67 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "premium men's fashion shirt ethnic wear studio"
+✅ Got 8 images
+{
+  "success": true,
+  "query": "premium men's fashion shirt ethnic wear studio",
+  "count": 8,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/c3288b45ad94.jpg",
+      "caption": "",
+      "source": "Fashefy",
+      "original_width": "1500px",
+      "original_height": "2250px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/91e912b6a690.jpg",
+      "caption": "",
+      "source": "Amazon.in",
+      "original_width": "728px",
+      "original_height": "1100px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/f2873c189e41.webp",
+      "caption": "",
+      "source": "www.southindiaeshop.com",
+      "original_width": "800px",
+      "original_height": "1200px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/eddb66449c26.jpg",
+      "caption": "",
+      "source": "Alamy",
+      "original_width": "1300px",
+      "original_height": "956px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/6dbdb0583486.jpg",
+      "caption": "",
+      "source": "thenormalbrand.com",
+      "original_width": "1200px",
+      "original_height": "1500px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/012299e613c2.png",
+      "caption": "",
+      "source": "Stitch Fix",
+      "original_width": "4500px",
+      "original_height": "4180px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/4d2dd62c69b1.jpg",
+      "caption": "",
+      "source": "uniworthshop.com",
+      "original_width": "900px",
+      "original_height": "1080px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/6f778a40bc8a.png",
+      "caption": "",
+      "source": "Nike",
+      "original_width": "1872px",
+      "original_height": "2340px"
+    }
+  ]
+}

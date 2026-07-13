@@ -1,0 +1,46 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "premium leather shoes footwear product white background"
+✅ Got 5 images
+{
+  "success": true,
+  "query": "premium leather shoes footwear product white background",
+  "count": 5,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/e8b049cb85e7.jpg",
+      "caption": "",
+      "source": "Alamy",
+      "original_width": "1300px",
+      "original_height": "918px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/f53fe7405a2b.webp",
+      "caption": "",
+      "source": "C A R I U M A",
+      "original_width": "1408px",
+      "original_height": "1016px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/d2b2273a313d.jpg",
+      "caption": "",
+      "source": "DiVERGE Sneakers",
+      "original_width": "1200px",
+      "original_height": "1680px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/b86766d4aafa.jpg",
+      "caption": "",
+      "source": "Kordovan Leather",
+      "original_width": "1917px",
+      "original_height": "2397px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/a03e425e1416.png",
+      "caption": "",
+      "source": "Clement Design USA",
+      "original_width": "1000px",
+      "original_height": "1000px"
+    }
+  ]
+}

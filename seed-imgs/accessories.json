@@ -1,0 +1,53 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "luxury leather handbag gold jewellery Indian"
+✅ Got 6 images
+{
+  "success": true,
+  "query": "luxury leather handbag gold jewellery Indian",
+  "count": 6,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/a40008d1abae.png",
+      "caption": "",
+      "source": "Kāli India",
+      "original_width": "980px",
+      "original_height": "1225px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/ae798dc5b62b.jpg",
+      "caption": "",
+      "source": "Alibaba.com",
+      "original_width": "900px",
+      "original_height": "900px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/6eca623282f2.jpg",
+      "caption": "",
+      "source": "needledust",
+      "original_width": "800px",
+      "original_height": "1067px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/a884c3b136ed.jpg",
+      "caption": "",
+      "source": "hidesign.com",
+      "original_width": "1500px",
+      "original_height": "2088px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/408e9cfb63b6.jpg",
+      "caption": "",
+      "source": "Le Mill",
+      "original_width": "1080px",
+      "original_height": "1080px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/73a784f872e6.jpg",
+      "caption": "",
+      "source": "needledust",
+      "original_width": "3000px",
+      "original_height": "4000px"
+    }
+  ]
+}

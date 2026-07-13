@@ -1,0 +1,53 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "men jeans jacket hoodie casual wear product"
+✅ Got 6 images
+{
+  "success": true,
+  "query": "men jeans jacket hoodie casual wear product",
+  "count": 6,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/6c74416330e9.webp",
+      "caption": "",
+      "source": "Wrogn",
+      "original_width": "1080px",
+      "original_height": "1440px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/147b389cdd3b.jpg",
+      "caption": "",
+      "source": "Amazon.com",
+      "original_width": "1036px",
+      "original_height": "1000px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/4486d511e444.jpg",
+      "caption": "",
+      "source": "Carousell",
+      "original_width": "1080px",
+      "original_height": "1080px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/2372107e2a6a.jpeg",
+      "caption": "",
+      "source": "Alibaba.com",
+      "original_width": "1100px",
+      "original_height": "1100px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/049fcb05d301.jpg",
+      "caption": "",
+      "source": "Justdial",
+      "original_width": "853px",
+      "original_height": "1024px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/98a8a966779c.jpg",
+      "caption": "",
+      "source": "GAS India",
+      "original_width": "1117px",
+      "original_height": "1400px"
+    }
+  ]
+}

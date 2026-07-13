@@ -1,0 +1,67 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "luxury Indian festive clothing model elegant saree"
+✅ Got 8 images
+{
+  "success": true,
+  "query": "luxury Indian festive clothing model elegant saree",
+  "count": 8,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/9e1133c681b3.jpg",
+      "caption": "",
+      "source": "Samyakk",
+      "original_width": "800px",
+      "original_height": "1200px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/268025ca9eb9.jpg",
+      "caption": "",
+      "source": "Mohi fashion",
+      "original_width": "1080px",
+      "original_height": "1040px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/ded3f8f6977c.jpg",
+      "caption": "",
+      "source": "The Fashion Station",
+      "original_width": "1000px",
+      "original_height": "1500px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/6648926abf81.jpg",
+      "caption": "",
+      "source": "LBB",
+      "original_width": "1000px",
+      "original_height": "1000px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/e2d25549dc5e.jpg",
+      "caption": "",
+      "source": "Amazon.in",
+      "original_width": "824px",
+      "original_height": "1100px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/0a47502a7ad9.jpg",
+      "caption": "",
+      "source": "Mirra Clothing",
+      "original_width": "1200px",
+      "original_height": "1600px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/24088694756b.jpg",
+      "caption": "",
+      "source": "Cbazaar",
+      "original_width": "800px",
+      "original_height": "1100px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/f42d2e47b206.jpg",
+      "caption": "",
+      "source": "- YouTube",
+      "original_width": "1080px",
+      "original_height": "1350px"
+    }
+  ]
+}

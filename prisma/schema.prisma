@@ -1,0 +1,242 @@
+// Amrut Collection — Premium Clothing E-Commerce Schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Category {
+  id        String   @id @default(cuid())
+  name      String
+  slug      String   @unique
+  gender    String   // men | women | kids | all
+  icon      String?
+  image     String?
+  parentId  String?
+  parent    Category? @relation("CategoryTree", fields: [parentId], references: [id])
+  children  Category[] @relation("CategoryTree")
+  products  Product[]
+  createdAt DateTime @default(now())
+}
+
+model Brand {
+  id        String   @id @default(cuid())
+  name      String   @unique
+  slug      String   @unique
+  logo      String?
+  country   String?
+  products  Product[]
+  createdAt DateTime @default(now())
+}
+
+model Product {
+  id          String   @id @default(cuid())
+  name        String
+  slug        String   @unique
+  description String
+  fabric      String
+  material    String
+  washCare    String
+  sku         String   @unique
+  barcode     String
+  price       Float
+  mrp         Float
+  discount    Float    @default(0)
+  stock       Int      @default(0)
+  deliveryCharge Float  @default(0) // per-product delivery charge
+  rating      Float    @default(0)
+  reviewCount Int      @default(0)
+  sold        Int      @default(0)
+  colors      String   // JSON array
+  colorImages String   @default("[]") // JSON array of {color, image}
+  sizes       String   // JSON array
+  patterns    String   // JSON array
+  images      String   // JSON array of urls
+  video       String?
+  tags        String   // JSON array
+  isTrending  Boolean  @default(false)
+  isNew       Boolean  @default(false)
+  isBestseller Boolean @default(false)
+  isFeatured  Boolean  @default(false)
+  gender      String   // men | women | kids
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  categoryId  String
+  category    Category @relation(fields: [categoryId], references: [id])
+  brandId     String
+  brand       Brand    @relation(fields: [brandId], references: [id])
+
+  reviews     Review[]
+  wishlistItems WishlistItem[]
+  orderItems  OrderItem[]
+}
+
+model Review {
+  id        String   @id @default(cuid())
+  productId String
+  product   Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  userName  String
+  userAvatar String?
+  rating    Float
+  title     String
+  body      String
+  verified  Boolean  @default(true)
+  helpful   Int      @default(0)
+  status    String   @default("approved") // pending | approved | rejected
+  createdAt DateTime @default(now())
+}
+
+model Order {
+  id        String   @id @default(cuid())
+  orderNo   String   @unique
+  customerId String?
+  customer  User?    @relation(fields: [customerId], references: [id], onDelete: SetNull)
+  customerName String
+  email     String
+  phone     String
+  address   String
+  city      String
+  state     String
+  pincode   String
+  paymentMethod String // upi | card | cod | wallet
+  paymentStatus String @default("paid") // paid | pending | failed | refunded
+  utrNumber String? // UTR / Transaction Reference (for UPI payments)
+  status    String   @default("ordered") // ordered | packed | shipped | out_for_delivery | delivered | cancelled | returned
+  subtotal  Float
+  shipping  Float    @default(0)
+  discount  Float    @default(0)
+  total     Float
+  items     OrderItem[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model OrderItem {
+  id        String   @id @default(cuid())
+  orderId   String
+  order     Order    @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  productId String
+  product   Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  name      String
+  image     String
+  price     Float
+  qty       Int
+  color     String
+  size      String
+}
+
+model WishlistItem {
+  id        String   @id @default(cuid())
+  productId String
+  product   Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+}
+
+model Coupon {
+  id        String   @id @default(cuid())
+  code      String   @unique
+  type      String   // percent | flat
+  value     Float
+  minOrder  Float    @default(0)
+  maxDiscount Float?
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+}
+
+model Banner {
+  id        String   @id @default(cuid())
+  title     String
+  subtitle  String
+  image     String
+  ctaText   String
+  ctaLink   String
+  position  String   @default("hero") // hero | promo | midpage
+  order     Int      @default(0)
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+}
+
+model User {
+  id        String   @id @default(cuid())
+  name      String
+  email     String?  @unique
+  phone     String?  @unique
+  avatar    String?
+  provider  String   @default("email")
+  loginCount Int     @default(1)
+  totalSpent Float   @default(0)
+  ordersCount Int    @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  addresses     Address[]
+  cart          UserCart[]
+  wishlist      UserWishlist[]
+  notifications UserNotification[]
+  orders        Order[]
+}
+
+model Address {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  label     String   @default("Home")
+  name      String
+  phone     String
+  address   String
+  city      String
+  pincode   String
+  state     String   @default("Maharashtra")
+  isDefault Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+model UserWishlist {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  productId String
+  createdAt DateTime @default(now())
+  @@unique([userId, productId])
+}
+
+model UserCart {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  productId String
+  name      String
+  image     String
+  price     Float
+  mrp       Float
+  qty       Int      @default(1)
+  color     String   @default("")
+  size      String   @default("")
+  createdAt DateTime @default(now())
+}
+
+model UserNotification {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title     String
+  body      String
+  type      String   @default("order")
+  read      Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+model FilterOption {
+  id        String   @id @default(cuid())
+  type      String   // color | size | pattern | brand | waist
+  value     String   // e.g. "Maroon", "S", "Embroidered"
+  gender    String   @default("all") // men | women | kids | all
+  active    Boolean  @default(true)
+  order     Int      @default(0)
+  createdAt DateTime @default(now())
+  @@unique([type, value, gender])
+}

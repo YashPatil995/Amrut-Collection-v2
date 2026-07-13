@@ -1,0 +1,53 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "kids children ethnic clothing fashion colorful"
+✅ Got 6 images
+{
+  "success": true,
+  "query": "kids children ethnic clothing fashion colorful",
+  "count": 6,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/29e02e8a37f7.jpg",
+      "caption": "",
+      "source": "Pinterest",
+      "original_width": "736px",
+      "original_height": "1102px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/9de7dcb0bb22.jpg",
+      "caption": "",
+      "source": "Palkhi Fashion",
+      "original_width": "2189px",
+      "original_height": "3000px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/6e036f6a9955.jpg",
+      "caption": "",
+      "source": "Amazon.com",
+      "original_width": "1003px",
+      "original_height": "1000px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/c59f4145111d.jpg",
+      "caption": "",
+      "source": "Period Paper Historic Art LLC",
+      "original_width": "1000px",
+      "original_height": "1465px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/1d8343de0877.jpg",
+      "caption": "",
+      "source": "Mariposa Children's Boutique",
+      "original_width": "1150px",
+      "original_height": "1845px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/0fa707b8fc75.jpg",
+      "caption": "",
+      "source": "DHgate",
+      "original_width": "1000px",
+      "original_height": "1000px"
+    }
+  ]
+}

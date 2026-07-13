@@ -1,0 +1,67 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "elegant Indian woman kurtis dress fashion"
+✅ Got 8 images
+{
+  "success": true,
+  "query": "elegant Indian woman kurtis dress fashion",
+  "count": 8,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/c970047c73ec.jpg",
+      "caption": "",
+      "source": "Ambassador Advertising",
+      "original_width": "1000px",
+      "original_height": "1200px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/da6ec4d267e9.jpg",
+      "caption": "",
+      "source": "Amazon.in",
+      "original_width": "746px",
+      "original_height": "1100px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/c6be089b1c41.jpg",
+      "caption": "",
+      "source": "Justdial",
+      "original_width": "1080px",
+      "original_height": "1440px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/bbee72084086.jpeg",
+      "caption": "",
+      "source": "Walmart",
+      "original_width": "800px",
+      "original_height": "1067px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/0fb9ae52d589.jpg",
+      "caption": "",
+      "source": "Cbazaar",
+      "original_width": "800px",
+      "original_height": "1100px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/2dfda303c154.jpg",
+      "caption": "",
+      "source": "Desertcart",
+      "original_width": "932px",
+      "original_height": "2521px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/527f7d6aeb7f.jpeg",
+      "caption": "",
+      "source": "Alibaba.com",
+      "original_width": "1000px",
+      "original_height": "1200px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/5d86ef7ab147.jpg",
+      "caption": "",
+      "source": "Lakshita",
+      "original_width": "1026px",
+      "original_height": "1440px"
+    }
+  ]
+}

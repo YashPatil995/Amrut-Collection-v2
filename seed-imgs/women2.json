@@ -1,0 +1,53 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "women saree lehenga ethnic Indian fashion"
+✅ Got 6 images
+{
+  "success": true,
+  "query": "women saree lehenga ethnic Indian fashion",
+  "count": 6,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/0fb9ae52d589.jpg",
+      "caption": "",
+      "source": "Cbazaar",
+      "original_width": "800px",
+      "original_height": "1100px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/0ffa57ec7084.jpg",
+      "caption": "",
+      "source": "ClothsVilla",
+      "original_width": "1080px",
+      "original_height": "1211px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/e3cee721c69d.jpg",
+      "caption": "",
+      "source": "Royal Export",
+      "original_width": "1440px",
+      "original_height": "1800px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/d5ee92a4b174.jpg",
+      "caption": "",
+      "source": "Royal Export",
+      "original_width": "1440px",
+      "original_height": "1800px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/7124b2c217fe.webp",
+      "caption": "",
+      "source": "Agapi Clothing",
+      "original_width": "1600px",
+      "original_height": "2000px"
+    },
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/dee5d86a5c7e.jpg",
+      "caption": "",
+      "source": "Amazon.in",
+      "original_width": "898px",
+      "original_height": "1100px"
+    }
+  ]
+}
