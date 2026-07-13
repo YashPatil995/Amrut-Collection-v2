@@ -355,7 +355,7 @@ function BannerManager() {
           <div className="space-y-3">
             <div>
               <Label className="text-xs font-medium">Title *</Label>
-              <Input value={form.title} onChange={(e) => setForm({ ...form, title: e.target.value })} placeholder="Festive Collection 2024" className="mt-1" />
+              <Input value={form.title} onChange={(e) => setForm({ ...form, title: e.target.value })} placeholder="Festive Collection 2026" className="mt-1" />
             </div>
             <div>
               <Label className="text-xs font-medium">Subtitle</Label>

@@ -184,7 +184,7 @@ const coupons = [
 ]
 
 const banners = [
-  { title: "Festive Collection 2024", subtitle: "Drape yourself in heritage. Handwoven sarees & ethnic wear up to 40% off.", image: IMG.hero[0], ctaText: "Shop Festive", ctaLink: "women-sarees", position: "hero", order: 0, active: true },
+  { title: "Festive Collection 2026", subtitle: "Drape yourself in heritage. Handwoven sarees & ethnic wear up to 40% off.", image: IMG.hero[0], ctaText: "Shop Festive", ctaLink: "women-sarees", position: "hero", order: 0, active: true },
   { title: "New Arrivals", subtitle: "Fresh drops every week. Discover the latest in men's & women's fashion.", image: IMG.hero[1], ctaText: "Explore New", ctaLink: "new", position: "hero", order: 1, active: true },
   { title: "Mega Sale — Up to 60% Off", subtitle: "Premium styles at irresistible prices. Limited time only.", image: IMG.hero[2], ctaText: "Shop Sale", ctaLink: "sale", position: "hero", order: 2, active: true },
 ]

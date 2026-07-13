@@ -418,7 +418,7 @@ function StoreMap() {
           <div className="mt-4 space-y-3 text-sm">
             <div className="flex gap-3"><MapPinIcon /><div><p className="font-medium">Address</p><p className="text-muted-foreground">Main Bajar, front of Bhajipala Market, Parola, Jalgaon — 425111, Maharashtra, India</p></div></div>
             <div className="flex gap-3"><PhoneIcon /><div><p className="font-medium">Phone</p><p className="text-muted-foreground">+91 75077 32111</p></div></div>
-            <div className="flex gap-3"><ClockIconSmall /><div><p className="font-medium">Hours</p><p className="text-muted-foreground">Mon – Sun: 10:00 AM – 9:00 PM</p></div></div>
+            <div className="flex gap-3"><ClockIconSmall /><div><p className="font-medium">Hours</p><p className="text-muted-foreground">Mon – Sun: 8:00 AM – 9:00 PM</p></div></div>
           </div>
         </div>
         <div className="overflow-hidden rounded-xl border border-border">
