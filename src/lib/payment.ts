@@ -3,15 +3,14 @@
 
 export const PAYMENT_CONFIG = {
   // UPI ID for receiving payments
-  upiId: '7666891772@omni',
+  upiId: '7507732111@ybl',
   // Payee name (shows in UPI app)
-  payeeName: 'Yash Patil',
+  payeeName: 'Parth Kshatriya',
   // Note prefix for UPI transactions
   notePrefix: 'AMRUT',
   // Store info
   storeName: 'Amrut Collection',
 }
-
 /**
  * Generate a UPI deep link for payment.
  * Format: upi://pay?pa=PAYEE_VPA&pn=PAYEE_NAME&am=AMOUNT&cu=INR&tn=NOTE&mc=MERCHANT_CODE
